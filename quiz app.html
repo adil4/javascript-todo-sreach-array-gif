@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="quiz%20app.css"/>
+</head>
+<body>
+
+    <h1>Quiz App</h1>
+
+    <form id="quiz" name="quiz">
+        <p>Question one</p>
+        <input type="text" id="textbox" name = "question1">
+
+        <p>Question two</p>
+        <input type="radio" id="mc" name="question2" value="adil">adil<br>
+        <input type="radio" id="mc" name="question2" value="adil ismail">adil ismail<br>
+
+        <p>Question three</p>
+        <input type="radio" id="mc" name="question3" value="ammar">ammar<br>
+        <input type="radio" id="mc" name="question3" value="ammar ahmed">ammar ahmed<br>
+        <input type="button" id="button" value="finished" onclick="check()"/>
+    </form>
+
+    <div id="after_submit">
+        <p id="message"></p>
+        <p id="number_correct"></p>
+        <img id="picture">
+    </div>
+
+    <script src="quiz%20app.js"></script>
+
+</body>
+</html>
